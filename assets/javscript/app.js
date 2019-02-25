@@ -1,4 +1,7 @@
 /*
+  $('button').on('click', function() {
+    switch to index.html
+  })
   Create a variable that counts down the time
   Set countdown variable to decrement by seconds
   Prepend the countdown to the trivia webpage
@@ -11,6 +14,10 @@
   }
   On results page, display total correct and incorrect answers
 */
+
+$('button').click(function(){
+  window.location.href = 'start.html';
+})
 
 var timeLeft = 45;
 
